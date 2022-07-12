@@ -211,3 +211,9 @@
 	branch = master
 	update = none
 	ignore = dirty
+[submodule "repos/markdown"]
+	path = repos/markdown
+	url = https://github.com/ikatyang/tree-sitter-markdown.git
+	branch = master
+	update = none
+	ignore = dirty
