@@ -31,10 +31,10 @@ jobs:
           - ""
         include:
           - os: windows-2019
-            emacs-version: '27.2'
+            emacs-version: '28.2'
             target: ""
           - os: macos-12
-            emacs-version: '27.2'
+            emacs-version: '28.2'
             # Cross build
             target: aarch64-apple-darwin
     runs-on: ${{ matrix.os }}
