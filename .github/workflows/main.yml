@@ -6,6 +6,7 @@ on:
       - master
       - github-actions          # To test changes related to GitHub Actions.
       - ci                      # To test all CI changes.
+      - win2022
     paths-ignore:
       - README.org
       - CHANGELOG.md
@@ -30,7 +31,7 @@ jobs:
         target:
           - ""
         include:
-          - os: windows-2019
+          - os: windows-2022
             emacs-version: '27.2'
             target: ""
           - os: macos-12
