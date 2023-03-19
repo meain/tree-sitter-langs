@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-git clone -b github-actions https://github.com/ubolonton/cask "$HOME"/.cask
+git clone -b master https://github.com/cask/cask "$HOME"/.cask
 echo "$HOME/.cask/bin" >> "$GITHUB_PATH"
