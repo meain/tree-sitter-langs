@@ -1,13 +1,10 @@
-(package "tree-sitter-langs"
-         "1.0.0"
-         "")
+(package "tree-sitter-langs")
 
-(website-url "")
-(keywords "")
-
-(package-file "tree-sitter-langs.el")
-
-(script "test" "echo \"Error: no test specified\" && exit 1")
+(files "tree-sitter-langs.el"
+       "tree-sitter-langs-build.el"
+       ;; XXX: Figure out how to include only .scm files under a level of directories.
+       ("queries"
+        "queries/*"))
 
 (source "melpa")
 
